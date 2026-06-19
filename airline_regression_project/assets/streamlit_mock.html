@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin:0; font-family: Arial, sans-serif; background:#f7f8fb; color:#111827; }
+  .sidebar { position:absolute; left:0; top:0; bottom:0; width:250px; background:#fff; border-right:1px solid #e5e7eb; padding:26px 22px; }
+  .main { margin-left:250px; padding:38px 55px; }
+  h1 { font-size:38px; margin:0 0 12px 0; }
+  p { font-size:18px; color:#4b5563; max-width:860px; }
+  .card { background:#fff; border:1px solid #e5e7eb; border-radius:18px; padding:26px; box-shadow:0 10px 30px rgba(0,0,0,.05); max-width:900px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:18px 24px; margin-top:22px; }
+  label { font-size:14px; font-weight:700; color:#374151; display:block; margin-bottom:7px; }
+  .input { border:1px solid #d1d5db; border-radius:12px; padding:13px 14px; font-size:16px; background:#f9fafb; }
+  .button { margin-top:25px; background:#ff4b4b; color:#fff; border-radius:12px; padding:14px 22px; display:inline-block; font-weight:700; }
+  .result { margin-top:25px; background:#e7f8ee; border-left:7px solid #16a34a; border-radius:12px; padding:18px 22px; font-size:24px; font-weight:800; color:#065f46; }
+  .logo { font-weight:800; font-size:22px; margin-bottom:28px; }
+  .menu { color:#6b7280; line-height:2.1; font-size:16px; }
+</style>
+</head>
+<body>
+<div class="sidebar"><div class="logo">✈️ Streamlit App</div><div class="menu">Input Data<br>Prediction Result<br>Model Info<br>Dataset Preview</div></div>
+<div class="main">
+  <h1>✈️ Prediksi Harga Tiket Pesawat</h1>
+  <p>Aplikasi menerima input data penerbangan baru dan menghasilkan estimasi harga tiket menggunakan model machine learning yang telah dilatih.</p>
+  <div class="card">
+    <div class="grid">
+      <div><label>Airline</label><div class="input">Vistara</div></div>
+      <div><label>Source City</label><div class="input">Delhi</div></div>
+      <div><label>Departure Time</label><div class="input">Morning</div></div>
+      <div><label>Stops</label><div class="input">one</div></div>
+      <div><label>Destination City</label><div class="input">Mumbai</div></div>
+      <div><label>Class</label><div class="input">Economy</div></div>
+      <div><label>Duration</label><div class="input">2.50 hours</div></div>
+      <div><label>Days Left</label><div class="input">15</div></div>
+    </div>
+    <div class="button">Prediksi Harga</div>
+    <div class="result">Estimasi harga tiket: ₹6,104</div>
+  </div>
+</div>
+</body>
+</html>

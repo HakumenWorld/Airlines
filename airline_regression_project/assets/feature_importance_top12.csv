@@ -1,0 +1,13 @@
+feature,importance
+class_Business,0.890403718561636
+duration,0.05425338675969998
+days_left,0.013926927641249691
+airline_Vistara,0.00941394061865801
+source_city_Delhi,0.00400885585851968
+destination_city_Delhi,0.0034962260846474833
+source_city_Mumbai,0.0023636787707323284
+destination_city_Mumbai,0.0018860207606663057
+source_city_Kolkata,0.0015406187861311377
+destination_city_Kolkata,0.0015176988641236577
+destination_city_Hyderabad,0.0014483376390733473
+stops_two_or_more,0.0013461252458138993

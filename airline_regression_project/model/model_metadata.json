@@ -1,0 +1,54 @@
+{
+  "target": "price",
+  "dropped_columns": [
+    "index",
+    "flight"
+  ],
+  "features": [
+    "airline",
+    "source_city",
+    "departure_time",
+    "stops",
+    "arrival_time",
+    "destination_city",
+    "class",
+    "duration",
+    "days_left"
+  ],
+  "categorical_features": [
+    "airline",
+    "source_city",
+    "departure_time",
+    "stops",
+    "arrival_time",
+    "destination_city",
+    "class"
+  ],
+  "numeric_features": [
+    "duration",
+    "days_left"
+  ],
+  "best_model": "Decision Tree",
+  "results": [
+    {
+      "model": "Ridge Regression",
+      "MAE": 4553.225,
+      "RMSE": 6761.719,
+      "R2": 0.9113,
+      "MAPE_%": 46.24,
+      "train_seconds": 4.82
+    },
+    {
+      "model": "Decision Tree",
+      "MAE": 1433.359,
+      "RMSE": 3208.013,
+      "R2": 0.98,
+      "MAPE_%": 10.139,
+      "train_seconds": 12.36
+    }
+  ],
+  "dataset_shape": [
+    300153,
+    12
+  ]
+}

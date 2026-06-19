@@ -1,0 +1,12 @@
+{
+  "rows": 300153,
+  "columns": 12,
+  "missing_total": 0,
+  "duplicated_rows": 0,
+  "price_min": 1105,
+  "price_median": 7425.0,
+  "price_mean": 20889.660523133203,
+  "price_max": 123071,
+  "duration_mean": 12.221020812718846,
+  "days_left_median": 26.0
+}
