@@ -1,2 +1,1 @@
-Upload file notebook/Flight_Price_Regression_EDA_Modeling.ipynb ke Google Drive, buka dengan Google Colab, lalu aktifkan share link.
-Saya tidak dapat membuat link Google Colab langsung karena tidak memiliki akses untuk mengunggah file ke Google Drive pengguna.
+Link Google Colab https://drive.google.com/file/d/1gaFuR_mIKGHyRp7Wi0R1Jl6IfQaIn6XU/view?usp=sharing
